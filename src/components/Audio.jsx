@@ -57,10 +57,9 @@ const Audio = () => {
           <div
             id="audiowaveform"
             ref={waveFormRef}
-            style={{ width: "100%" }}
           ></div>
           <div>
-            <p style={{color:'white'}}>{`${seconds} seconds`}</p>
+            <p className="timer">{`${seconds} seconds`}</p>
           </div>
           <button id="play-button" onClick={handleAudioPlay}>
             Play

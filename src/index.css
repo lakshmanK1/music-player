@@ -1,8 +1,7 @@
 
 #root{
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
   width: 100%;
 }
@@ -17,9 +16,10 @@ body {
     height: 100%;
     width: 100%;
     background: #000;
+    /* overflow-x: hidden; */
   }
   
-  #waveform{
+  #audiowaveform{
     width: 100%;
     max-width: 100%;
   }
@@ -51,7 +51,7 @@ body {
     width: 100%;
     margin-top: 5vh;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column;
     align-items: center;
     justify-content: space-between;
   }
@@ -64,6 +64,11 @@ body {
   h1 {
     color:white;
     font-size: 1.5rem;
+  }
+
+  .timer {
+    color:white;
+    font-size: 1rem;
   }
   
   /* style for the upload button */
